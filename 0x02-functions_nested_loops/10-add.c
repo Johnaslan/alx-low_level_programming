@@ -1,14 +1,13 @@
+#include "main.h"
 
-#include <studio.h>
-  
- /** 
-  * add - add two integers 
-  * a: first integer arguments 
-  * b: second integer arguments 
-  * Return: sum 
-  */ 
-  
- int add(int a, int b) 
- { 
-         return (a + b); 
- }
+/**
+ * add - Adds two integers.
+ * @num1: The first integer to be added.
+ * @num2: The second integer to be added.
+ *
+ * Return: The result of the addition.
+ */
+int add(int num1, int num2)
+{
+	return (num1 + num2);
+}
